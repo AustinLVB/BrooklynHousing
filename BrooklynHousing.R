@@ -66,5 +66,5 @@ bk.homes$outliers <- (log10(bk.homes$sale.price.n) <=5) + 0
 bk.homes <- bk.homes[which(bk.homes$outliers==0),]
 
 plot(log10(bk.homes$gross.sqft),log10(bk.homes$sale.price.n))
-
+#additional comment so will find difference to commit.
 
